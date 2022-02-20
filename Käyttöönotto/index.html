@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Jere Alastalo - Projekti</title>
+  <!--
+<link
+      rel="stylesheet"
+      href="../bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css"
+    />
+    <script src="../bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+
+-->
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <!--Oma css-tiedosto-->
+  <link rel="stylesheet" href="tyylit.css" />
+</head>
+
+<!--Verkkosivun sisältö-->
+
+<body id="page-top">
+  <div>
+    <div class="header-blue">
+      <nav class="navbar navbar-expand-xl navbar-dark" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand" href="#">Tiedostamo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Valikko
+            <i class="fas fa-bars ms-1"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-2">
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="/sovittelu.html">Sovittelu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="/valmennukset.html">Valmennukset</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="/ohjaus.html">Työnohjaus</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="/about.html">Ota yhteyttä</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container px-0">
+    <div class="row g-0">
+      <div class="col-12" id="headercol">
+        <div class="container img-wrapper" id="headercontainer">
+          <img class="d-md-none img-fluid w-100 p-5" alt="mobile alt text" src="./images/header.png" />
+          <img class="d-none d-md-block img-fluid w-100" alt="desktop alt text" src="./images/kokoheaderi.jpg" />
+
+          <div class="d-md-none img-overlay2">
+            <div class="col">
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary text-uppercase" id="headeributton1" type="button" href="/about.html">
+                  Ota yhteyttä
+                </button>
+                <button class="btn btn-secondary text-uppercase" id="headeributton2" type="button" href="#portfolio">
+                  Palvelut
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-none d-md-block d-lg-none img-overlay">
+            <a class="btn btn-primary btn-medium text-uppercase me-3" id="headeributton1" href="/about.html">Ota
+              yhteyttä</a>
+            <a class="btn btn-secondary btn-medium text-uppercase ms-3" id="headeributton2"
+              href="#portfolio">Palvelut</a>
+          </div>
+
+          <div class="d-none d-lg-block img-overlay">
+            <a class="btn btn-primary btn-xl text-uppercase me-4" id="headeributton1" href="/about.html">Ota
+              yhteyttä</a>
+            <a class="btn btn-secondary btn-xl text-uppercase ms-4" id="headeributton2" href="#portfolio">Palvelut</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container px-0 my-5">
+    <div class="container">
+      <div class="row text-center pt-3">
+        <h2>
+          Tarvitseeko työyhteisönne.. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Veritatis amet veniam aspernatur error quo
+          obcaecati eius praesentium et dolore assumenda natus earum,
+          molestias esse ab, maxime, nisi minus! Et, esse?
+        </h2>
+      </div>
+    </div>
+
+
+
+    <section class="page-section " id="portfolio">
+
+      <div class="container pt-5">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase"></h2>
+          <h3 class="section-subheading text-muted">
+
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <!-- Palvelu item 1-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#palveluModal1">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="./images/1.jpg" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <a class="palvelulinkki" data-bs-toggle="modal" href="#palveluModal1" style="color: black;">
+                  <div class="portfolio-caption-heading">Työyhteisösovittelu</div>
+                  <p class="py-3" id="perusteksti">
+                    Tähän hieman kuvaavaa ja houkuttelevaa tekstiä sovittelusta. Painamalla
+                    aukeaa lisätietoa.
+                  </p>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Lue lisää sovitteluista >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4">
+            <!-- Palvelu item 2-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#palveluModal2">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="./images/8.jpg" alt="..." />
+              </a>
+              <div class="portfolio-caption " href="portfolioModal2">
+                <a class="palvelulinkki" data-bs-toggle="modal" href="#palveluModal2" style="color: black">
+                  <div class="portfolio-caption-heading">Valmennukset</div>
+                  <p class="py-3" id="perusteksti">
+                    Tähän hieman kuvaavaa ja houkuttelevaa tekstiä valmennuksista. Painamalla
+                    aukeaa lisätietoa.
+                  </p>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Lue lisää valmennuksista >
+
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4">
+            <!-- Palvelu item 3-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#palveluModal3">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="./images/2.jpg" alt="..." />
+              </a>
+              <div class="portfolio-caption" href="portfolioModal3">
+                <a class="palvelulinkki" data-bs-toggle="modal" href="#palveluModal3" style="color: black">
+                  <div class="portfolio-caption-heading">Työnohjaukset</div>
+                  <p class="py-3" id="perusteksti">
+                    Tähän hieman kuvaavaa ja houkuttelevaa tekstiä sovittelusta. Painamalla
+                    aukeaa lisätietoa.
+                  </p>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Lue lisää työnohjauksista >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <div class="container px-0 my-5" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px">
+      <div class="container py-3 ">
+
+        <div class="card mb-3 border-0">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/pikkutarmo.jpg" class="img-fluid rounded-circle  p-4" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title pt-5 text-center text-md-start">Tarmo Alastalo</h4>
+                <p class="card-text pt-3 text-center text-md-start" id="perusteksti2">
+                  Tarmo on työnohjaaja, työyhteisökehittäjä ja koutsi.
+                  Tarmo on myös yksi Itä-Suomen kokeneimpia työyhteisösovittelijoita.
+                  Hänellä on vahva oma kokemus yritysmaailmasta ja toimitusjohtajan työstä.
+                </p>
+                <p class="card-text text-center text-md-start" id="modaaliteksti"><small class="text-muted">
+                    - Lainattu työluotsin sivulta.</small>
+                </p>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-1 mx-3" style="background-color:#eb6450;">
+        </div>
+      </div>
+
+
+      <div class="container pt-2 pb-4 px-5">
+
+        <h4 class="card-title  text-start">Työkokemus</h4>
+        <p class="card-text pt-2 text-start" id="perusteksti2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sapiente saepe qui,
+          id quos recusandae quibusdam necessitatibus tempora dolores
+          mollitia iste laudantium suscipit, at obcaecati? Voluptatum similique velit fugit obcaecati!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sapiente saepe qui,
+          id quos recusandae quibusdam necessitatibus tempora dolores
+          mollitia iste laudantium suscipit, at obcaecati? Voluptatum similique velit fugit obcaecati!
+        </p>
+
+        <div class="row pt-3">
+
+          <div class="col-md-6 ">
+            <h4 class="card-title pt-2 text-start">Koulutus</h4>
+            <ul class="pt-2">
+              <li id="perusteksti2">Työyhteisösovittelun erityisosaaja</li>
+              <li id="perusteksti2">Työyhteisövalmentaja</li>
+              <li id="perusteksti2">Ratkaisukeskeinen työnohjaaja </li>
+              <li id="perusteksti2">Pedagogin koulutus</li>
+              <li id="perusteksti2">Insinööri YAMK</li>
+
+
+          </div>
+          <div class="col-md-6">
+            <h4 class="card-title pt-2 text-start">Jäsenyydet</h4>
+            <ul class="pt-2">
+              <li id="perusteksti2">Ratkes ry</li>
+              <li id="perusteksti2">Suomen työnohjaajat ry</li>
+              <li id="perusteksti2">Suomen sovittelufoorumi ry </li>
+              <li id="perusteksti2">Yrittäjät jäsenyritys 2022</li>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div id="footer" class="container-fluid p-0">
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="my-3">
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row mt-5">
+            <!--Grid column-->
+            <div class="col-lg-6  mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4 text-start">Yhteystiedot</h5>
+
+              <ul class="list-unstyled text-start mb-0">
+                <li>
+                  <p id="perusteksti">Tarmo Alastalo</p>
+                </li>
+                <li>
+                  <p id="perusteksti">tarmo.alastalo@tiedostamo.fi</p>
+                </li>
+                <li>
+                  <p id="perusteksti">+358505686274</p>
+                </li>
+                <li>
+                  <p id="perusteksti">Osoite</p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+
+
+            <!--Grid column-->
+            <div class="col-lg-6  mb-3">
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- * * SB Forms Contact Form * *-->
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- This form is pre-integrated with SB Forms.-->
+              <!-- To make this form functional, sign up at-->
+              <!-- https://startbootstrap.com/solution/contact-forms-->
+              <!-- to get an API token!-->
+              <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="row align-items-stretch mb-3">
+                  <div class="col-12">
+                    <h5 class="text-uppercase mb-4 ">Ota yhteyttä</h5>
+                    <div class="form-group py-2">
+                      <!-- Name input-->
+                      <input class="form-control" id="name" type="text" placeholder="Nimi:"
+                        data-sb-validations="required" />
+                      <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                    </div>
+                    <div class="form-group py-2">
+                      <!-- Email address input-->
+                      <input class="form-control" id="email" type="email" placeholder="Email:"
+                        data-sb-validations="required,email" />
+                      <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                      <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                    </div>
+                    <div class="form-group mb-md-0 py-2">
+                      <!-- Phone number input-->
+                      <input class="form-control" id="phone" type="tel" placeholder="Puhelinnumero:"
+                        data-sb-validations="required" />
+                      <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                    </div>
+                    <div class="form-group form-group-textarea mb-md-0 py-2">
+                      <!-- Message input-->
+                      <textarea class="form-control" id="message" placeholder="Viesti:"
+                        data-sb-validations="required"></textarea>
+                      <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- Submit success message-->
+                <!---->
+                <!-- This is what your users will see when the form-->
+                <!-- has successfully submitted-->
+                <div class="d-none" id="submitSuccessMessage">
+                  <div class="text-center text-white mb-3">
+                    <div class="fw-bolder">Form submission successful!</div>
+                    To activate this form, sign up at
+                    <br />
+                    <a
+                      href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                  </div>
+                </div>
+                <!-- Submit error message-->
+                <!---->
+                <!-- This is what your users will see when there is-->
+                <!-- an error submitting the form-->
+                <div class="d-none" id="submitErrorMessage">
+                  <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+                <!-- Submit Button-->
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton"
+                    type="submit">Lähetä viesti</button></div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="#">Jere Alastalo</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+
+
+
+
+  <!-- Palvelu item 1 - Sovittelu modal popup-->
+  <div class="portfolio-modal modal fade p-3" id="palveluModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal">
+          <img src="./images/close-icon.svg" alt="Close modal" />
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="d-none d-md-block text-uppercase">Työyhteisösovittelu</h2>
+                <h3 class="text-uppercase d-md-none">Työyhteisösovittelu</h3>
+                <p class="item-intro text-muted">
+                  ”Eilistä ei voi muuttaa, mutta tämän päivän teot ja sanat voivat muuttaa huomisen”
+                </p>
+                <img class="img-fluid d-block mx-auto" src="./images/1.jpg" alt="..." />
+                <h3>Miksi työyhteisösovittelua?</h3>
+                <p class="text-start">
+                  Lukuisissa työyhteisöissä työntekijät kamppailevat kuormituksen kanssa, joka juontaa työpaikan
+                  ihmissuhdeongelmista. Valitettavasti ristiriidoilla ei ole tapana kadota itsestään mihinkään,
+                  eivätkä ne aina katoa yksilökohtaisessa työnohjauksessa tai koko työyhteisön kehittämistyöpajoissa,
+                  joissa katse suunnataan tarmokkaasti kohti tulevaa. Käsittelemättömät konfliktit kaihertavat mieltä,
+                  vaikka kuinka päätettäisiin ajatella positiivisesti. Pitkittyessään työpaikan kohtaamisten kitka
+                  aiheuttaa mielipahaa, joka kasaantuessaan latistaa työilmapiirin, altistaa fyysisille oireille ja syö
+                  tuottavuutta.
+                </p>
+
+
+
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Sulje
+                </button>
+                <a class="portfolio-link" data-bs-target="modal" href="/sovittelu.html">
+                  <button class="btn btn-secondary btn-xl text-uppercase">
+                    lue lisää
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Palvelu item 2- Valmennukset modal popup-->
+  <div class="portfolio-modal modal fade p-3" id="palveluModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal">
+          <img src="./images/close-icon.svg" alt="Close modal" />
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="d-none d-md-block text-uppercase">Valmennukset</h2>
+                <h3 class="text-uppercase d-md-none">Valmennukset</h3>
+                <p class="item-intro text-muted">
+                  Työyhteisön osaaminen, voimavarat ja vahvuudet hyötykäyttöön</p>
+
+
+
+                <!--img class="img-fluid d-block mx-auto" src="./images/8.jpg" alt="..." />-->
+
+                <p class="text-start">
+                </p>
+
+                <div class="accordion mb-5" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button collapsed " type="button" id="haitaripainike"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                        aria-controls="collapseOne">
+                        Työyhteisövalmennus
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <img class="img-fluid d-block p-3 mx-auto" src="./images/2.jpg" alt="..." />
+                        <p class="text-start " id="haitariteksti">
+                          Työyhteisövalmennusta tarvitaan silloin, kun toimintaan kohdistuu erityinen haaste, tai
+                          työyhteisön
+                          työskentely halutaan nostaa uudelle tavoitetasolle. Valmennuksen lähtökohta on ratkaista
+                          liiketoiminnallisia
+                          haasteita esim. parantaa tuottavuutta, lisätä myyntiä, tehdä hallittu muutos tai luoda
+                          innovatiivisuutta
+                          työyhteisössä. Valmennuksessa keskitytään sekä ihmisiin, että liiketoimintaan, jolloin
+                          varmemmin pääsemme
+                          tavoitetilaan. Valmennuksessa edetään tavoitteiden
+                          suuntaan tunnistamalla yhteistyötä haittaavat tekijät ja onnistuimista mahdollistavat tekijät.
+                        </p>
+                        <ul class="list-groub ps-0 my-3">
+                          <li class="list-group-item text-start list-group-item-primary">
+                            Valmennuksen teemoja voi olla:
+                          </li>
+                          <li class="list-group-item text-start">
+                            Uusien asiakkuuksien haltuunotto.
+
+                          </li>
+                          <li class="list-group-item text-start">
+                            Erilaiset muutostilanteet.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Organisaation rakenneuudistukset.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Yhdessä tekemisen haasteet.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Vuorovaikutus- ja ristiriitatilanteet.
+
+                          </li>
+                          <li class="list-group-item text-start">Hiljaisen tiedon näkuväksi tekeminen: esimerkiksi
+                            uusien henkilöiden perehdytysohjelma tai eläköitymisiin varautuminen.
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" id="haitaripainike"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        Esimiesvalmennus
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <img class="img-fluid d-block p-3 mx-auto" src="./images/8.jpg" alt="..." />
+
+                        <ul class="list-groub ps-0 my-3 ">
+                          <li class="list-group-item text-start list-group-item-primary">
+                            Valmennuksen tavoitteet:
+                          </li>
+                          <li class="list-group-item text-start">
+                            Kasvattaa esimiehen itsetuntemusta ja lisää ymmärrystä oman käyttäytymisen vaikutuksesta
+                            henkilöstöön.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Selkiyttää omaa esimiesroolia, omia vahvuuksia ja kehittämistehtäviä esimiestyössä.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Opitaan rakentamaan luottamusta, sitoutumista ja motivaatiota eri tyyppisten alaisten
+                            kanssa.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Valmennuksessa käytetyistä menetelmistä esimiehet saavat yhteisiä työkaluja, joilla heidän
+                            on jatkossa
+                            helpompi hahmottaa toisten ihmisten käyttäytymistä ja kehittää omia vuorovaikutustaitojaan.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" id="haitaripainike"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        Avainhenkilöstön valmennus
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+
+                        <img class="img-fluid d-block p-3 mx-auto" src="./images/4.jpg" alt="..." />
+                        <p class="text-start " id="haitariteksti">
+
+                          Tämä valmennus on tarkoitettu esimiehille, työsuojelupäälliköille, työsuojeluvaltuutetuille ja
+                          luottamusmiehille.
+                          Valmennus luo edellytykset esimiesten, työsuojeluhenkilöstön ja luottamushenkilöstön
+                          yhteistoiminnalle,
+                          jossa organisaation
+                          haasteelliset tilanteet voidaan ratkaista yhteistyössä ketään syyllistämättä ja yhteisesti
+                          sovituin keinoin.
+                        </p>
+                        <ul class="list-groub ps-0 my-3">
+                          <li class="list-group-item text-start list-group-item-primary">
+                            Valmennuksessa keskeisiä osa-alueita:
+                          </li>
+                          <li class="list-group-item text-start">
+                            konfliktin esiintymismuodot työyhteisössä ja niiden tunnitsaminen mahdollisimman varhaisessa vaiheessa
+
+                          </li>
+                          <li class="list-group-item text-start">
+                            Konfliktin käsittelyyn liittyvät defenssit ja niiden käsittely
+                          </li>
+                          <li class="list-group-item text-start">
+                            Esimiehen, työsuojeluhenkilöstön ja luottamushenkilöstön keinot ja rooli sovittelijana. Millaista osaamista tämä edellyttää.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Esimies, työsuojeluhenkilöstö tai luottamushenkilöstö konfliktin osapuolena. Kuinka menetellä tällaisessa tilanteessa?
+                          </li>
+                          <li class="list-group-item text-start">
+                            Vuorovaikutus- ja ristiriitatilanteet.
+
+                          </li>
+                          <li class="list-group-item text-start">Ulkopuolisen sovittelijan käyttö konfliktin ratkaisuun. Missä tilanteissa ulkopulisen sovittelijan käyttö on suotavaa ja kuinka työyhteisö otetaan mukaan sovitteluprosessiin?
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Sulje
+                </button>
+                <a class="portfolio-link" data-bs-target="modal" href="/valmennukset.html">
+                  <button class="btn btn-secondary btn-xl text-uppercase">
+                    lue lisää
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Palvelu item 3- Ohjaukset modal popup-->
+   <div class="portfolio-modal modal fade p-3" id="palveluModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal">
+          <img src="./images/close-icon.svg" alt="Close modal" />
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="d-none d-md-block text-uppercase">Työnohjaus</h2>
+                <h3 class="text-uppercase d-md-none">Työnohjaus</h3>
+                <p class="item-intro text-muted">
+                  Työnohjauksella työhyvinvointia ja tukea omaan sekä työyhteisön toimintaan</p>
+
+                <!--img class="img-fluid d-block mx-auto" src="./images/8.jpg" alt="..." />-->
+
+                <p class="text-start">
+                  Työnohjaus on kokonaisvaltainen työn, työyhteisön ja työntekijän kehittämismenetelmä, jonka tavoitteena on työn parempi sujuminen 
+                          ja työkalujen saaminen omaan työhön. Työnohjaus selkeyttää oman toiminnan tietoisuutta ja vahvistaa työn hallinnan tunnetta.
+                          Ohjausprosessissa opitaan tiedostamaan ja hahmottamaan työelämän ilmiöitä ja omaa suhdetta niihin. 
+                          Tämän myötä selkiytyy työteon päämäärät ja kehittää sopivia keinoja päämäärien saavuttamiseksi. 
+                          Samalla ohjauksessa opitaan ammatillista reflektiota sellaisella tavalla, että sitä voidaan tehdä 
+                          myös erilaisissa tilanteissa työn arjessa.
+                          Näin työssä oppiminen syvenee myös ohjaustilanteiden ulkopuolella.
+                </p>
+
+                <div class="accordion mb-5" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button collapsed " type="button" id="haitaripainike"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                        aria-controls="collapseOne">
+                        Yksilötyönohjaus
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <img class="img-fluid d-block p-3 mx-auto" src="./images/5.jpg" alt="..." />
+                        <p class="text-start " id="haitariteksti">
+                          
+                        </p>
+                        <ul class="list-groub ps-0 my-3">
+                          <li class="list-group-item text-start list-group-item-primary">
+                            Yksilötyönohjauksen avulla:
+                          </li>
+                          <li class="list-group-item text-start">
+                            Tutkit ja jäsennät työhön liittyviä kokemuksia.
+
+                          </li>
+                          <li class="list-group-item text-start">
+                            Saat sujuvuutta arkityöhön.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Löydät tasapainoisemman suhteen työhön.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Saat uusia näkökulmia.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Vahvistat ammatti-identiteettiä ja ammatillista kasvua.
+
+                          </li>
+                          <li class="list-group-item text-start">Saat tukea muutoksissa ja uusissa tehtävissä.
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" id="haitaripainike"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        Yhteisötyönohjaus
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <img class="img-fluid d-block p-3 mx-auto" src="./images/6.jpg" alt="..." />
+
+                        <ul class="list-groub ps-0 my-3 ">
+                          <li class="list-group-item text-start list-group-item-primary">
+                            Yhteisötyönohjauksessa:
+                          </li>
+                          <li class="list-group-item text-start">
+                            Kirkastetaan arkityön tavoitteita.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Kehitetään arkityötä tukevia rakenteita.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Edistetään työyhteisön ammatillista vuorovaikutusta.
+                          </li>
+                          <li class="list-group-item text-start">
+                            Tutkitaan johtajuutta työyhteisön eri jäsenten yhteispelinä.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" id="haitaripainike"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        Ryhmätyönohjaus
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+
+                        <img class="img-fluid d-block p-3 mx-auto" src="./images/4.jpg" alt="..." />
+                        <p class="text-start " id="haitariteksti">
+                          Ryhmätyönohjausta järjestetään usein jonkin tietyn ammattialan työntekijöille tai esimerkiksi esimiestyötä tekeville. 
+                          Toisinaan suuremmissa organisaatioissa saatetaan tarjota työntekijöille ryhmätyönohjausta siten, että ryhmät kootaan 
+                          eri osastojen ja toimialueiden henkilöstöstä. Leimallista kaikille tällaisille toteutuksille on, että niissä ei 
+                          yritetä ohjata ryhmäläisiä työpaikan 
+                          työyhteisönä vaan niissä keskitytään kunkin ohjattavan ammatilliseen kehittymiseen ja samalla vertaisilta oppimiseen.
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Sulje
+                </button>
+                <a class="portfolio-link" data-bs-target="modal" href="/ohjaukset.html">
+                  <button class="btn btn-secondary btn-xl text-uppercase">
+                    lue lisää
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+<!-- Masthead-->
+
+</html>

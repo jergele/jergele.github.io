@@ -18,16 +18,12 @@
       crossorigin="anonymous"
     ></script>
     <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!--Oma css-tiedosto-->
     <link rel="stylesheet" href="tyylit.css" />
 
@@ -36,7 +32,7 @@
   <body>
     <div>
       <div class="header-blue">
-        <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+        <nav class="navbar navbar-expand-xl navbar-dark" id="mainNav">
           <div class="container">
             <a class="navbar-brand" href="index.html">Tiedostamo</a>
             <button
@@ -51,7 +47,7 @@
               <i class="fas fa-bars ms-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-2">
+              <ul class="navbar-nav text-uppercase ms-auto  py-lg-2">
                 <li class="nav-item">
                   <a class="nav-link mx-2" href="/sovittelu.html">Sovittelu</a>
                 </li>
@@ -84,7 +80,7 @@
               src="./images/8.jpg"
               style="opacity: 90%; filter: blur(2px)"
             />
-            <div class="d-none d-lg-block img-overlay3">
+            <div class="d-none d-xl-block img-overlay5">
               <p class="mb-5" id="headeriteksti">Valmennukset</p>
 
               <a
@@ -100,17 +96,37 @@
                 >Lue lisää</a
               >
             </div>
-            <div class="d-lg-none img-overlay4">
-              <p class="mb-2" id="headeriteksti2">Valmennukset</p>
+
+
+            <div class="d-none d-lg-block d-xl-none img-overlay3">
+              <p class="mb-5" id="headeriteksti">Valmennukset</p>
 
               <a
-                class="btn btn-primary btn-medium text-uppercase me-3 mt-1"
+                class="btn btn-primary btn-xl text-uppercase me-4 mt-5"
                 id="headeributton1"
                 href="/about.html"
                 >Ota yhteyttä</a
               >
               <a
-                class="btn d-none d-lg-block d-xl-none btn-secondary btn-medium text-uppercase ms-3 mt-1"
+                class="btn btn-secondary btn-xl text-uppercase ms-4 mt-5"
+                id="headeributton2"
+                href="#valmennustieto"
+                >Lue lisää</a
+              >
+            </div>
+
+
+            <div class="d-lg-none img-overlay4">
+              <p class="mb-2" id="headeriteksti2">Valmennukset</p>
+
+              <a
+                class="btn btn-primary btn-small text-uppercase me-3 mt-1"
+                id="headeributton1"
+                href="/about.html"
+                >Ota yhteyttä</a
+              >
+              <a
+                class="btn d-none d-lg-block d-xl-none btn-secondary btn-small text-uppercase ms-3 mt-1"
                 id="headeributton2"
                 href="#valmennustieto"
                 >lue lisää</a
@@ -123,7 +139,7 @@
 
     <section class="page-section" id="valmennustieto">
     <div
-      class="container px-0 my-5"
+      class="container px-0 my-md-5"
       style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px"
     >
       <div class="container py-4">
@@ -160,7 +176,7 @@
     </div>
 
     <div
-      class="container my-5"
+      class="container my-md-5"
       style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px"
     >
       <div class="row">
@@ -184,28 +200,12 @@
             </li>
           </div>
         <div class="col-md-6 p-5" style="background-color: #ebe0d0">
-          <p class="text-start mb-0 pt-3" id="otsikko2">
-            Työyhteisövalmennuksen merkittävimmät hyödyt:
-          </p>
-          <ul class="pt-2">
-            <li id="perusteksti2">Motivaatio vahvistuu ja työn ilo lisääntyy.
-            </li>
-            <li id="perusteksti2">Henkilöstön aktiivisuus kasvaa.</li>
-            <li id="perusteksti2">Kaikkien osaaminen, ideat ja näkökulmat saadaan käyttöön. </li>
-            <li id="perusteksti2">Tavoitteellisuus, suoritukset ja tulokset paranevat.
-            </li>
-            <li id="perusteksti2">Esimiesten ajankäyttö tehostuu, jolloin hän keskittyy olennaiseen.
-            </li>
-            <li id="perusteksti2">Esimiesten rooli onnistumisten lisääjänä vahvistuu.
-
-            </li>
-            <li id="perusteksti2">Työntekijöiden turhat poissaolot ja vaihtuvuus vähenevät.
-            </li>
+          
         </div>
       </div>
     </div>
   </section>
-    <div class="container px-0 my-5"  style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px">
+    <div class="container px-0 my-md-5"  style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px">
       <div class="container pb-5">
         <p class="text-center mb-0 pt-5" id="otsikko">Lisätietoa eri valmennuksista:</p>
         <div class="row">

@@ -80,7 +80,7 @@
   content: " ";
   display: block;
   /* adjust 'height' to position overlay content vertically */
-  height: 35%;
+  height: 45%;
 }
 
 #headeriteksti {
@@ -103,6 +103,16 @@
   letter-spacing: 0.03em;
   font-weight: 550;
 }
+#headeriteksti3 {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px #343434;
+  letter-spacing: 0.03em;
+  font-weight: 550;
+}
 
 #mainNav {
   padding-top: 0.7rem;
@@ -110,8 +120,8 @@
   background-color: #fff;
 }
 #mainNav .navbar-toggler {
-  padding: 0.75rem;
-  font-size: 1rem;
+  padding: 0.6rem;
+  font-size: 1.1rem;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
@@ -136,7 +146,7 @@
     "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 2.3rem;
-  letter-spacing: 0.0625em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
@@ -148,7 +158,7 @@
     "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.3rem;
   color: #111;
-  letter-spacing: 0.0625em;
+  letter-spacing: 0.05em;
   font-weight: 500;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
@@ -167,7 +177,7 @@
 }
 
 .btn-medium {
-  padding: 0.5rem 2rem;
+  padding: 0.8rem 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -184,7 +194,7 @@
 }
 
 .btn-small {
-  padding: 0.2rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -408,7 +418,7 @@
 }
 
 #haitaripainike {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 550;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",

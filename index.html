@@ -7,7 +7,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Jere Alastalo - Projekti</title>
+  <title>Tiedostamo</title>
   <!--
 <link
       rel="stylesheet"
@@ -48,7 +48,7 @@
             <i class="fas fa-bars ms-1"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-2">
+            <ul class="navbar-nav text-uppercase ms-auto py-0 py-lg-2">
               <li class="nav-item">
                 <a class="nav-link mx-2" href="/sovittelu.html">Sovittelu</a>
               </li>
@@ -79,12 +79,12 @@
           <div class="d-md-none img-overlay2">
             <div class="col ">
               <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-primary text-uppercase" id="headeributton1" type="button" href="/about.html">
+                <a class="btn btn-primary text-uppercase" id="headeributton1"  href="/about.html">
                   Ota yhteyttä
-                </button>
-                <button class="btn btn-secondary text-uppercase" id="headeributton2" type="button" href="#portfolio">
+                </a>
+                <a class="btn btn-secondary text-uppercase" id="headeributton2"  href="#portfolio">
                   Palvelut
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@
     </div>
   </div>
   <div
-  class="container px-0 mt-5"
+  class="container px-0 mt-md-5"
   style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px"
 >
   <div class="container py-4">
@@ -136,7 +136,7 @@
 
     <section class="page-section " id="portfolio">
 
-      <div class="container pt-5">
+      <div class="container pt-md-3">
         <div class="text-center">
           <h2 class="section-heading text-uppercase"></h2>
           <h3 class="section-subheading text-muted">
@@ -224,7 +224,7 @@
         </div>
     </section>
 
-    <div class="container px-0 my-5" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px">
+    <div class="container px-0 my-md-5" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px">
       <div class="container py-3 ">
 
         <div class="card mb-3 border-0">
@@ -436,13 +436,13 @@
 
 
   <!-- Palvelu item 1 - Sovittelu modal popup-->
-  <div class="portfolio-modal modal fade p-3" id="palveluModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="palveluModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-bs-dismiss="modal">
           <img src="./images/close-icon.svg" alt="Close modal" />
         </div>
-        <div class="container">
+        <div class="container px-0">
           <div class="row justify-content-center">
             <div class="col-lg-8">
               <div class="modal-body">
@@ -464,17 +464,39 @@
                   tuottavuutta.
                 </p>
 
+                <div class="d-md-none">
+                  <div class="col ">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                      <a class="portfolio-link" data-bs-target="modal" href="/sovittelu.html">
+                        <button class="btn btn-secondary btn-medium text-uppercase">
+                          lue lisää
+                        </button>
+                      </a>
+                      <button class="btn btn-primary btn-medium text-uppercase" data-bs-dismiss="modal" type="button">
+                        <i class="fas fa-times me-1"></i>
+                        Sulje
+                      </button>
+                      
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="d-none d-md-block d-lg-block">
 
-
-                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                  <i class="fas fa-times me-1"></i>
-                  Sulje
-                </button>
-                <a class="portfolio-link" data-bs-target="modal" href="/sovittelu.html">
-                  <button class="btn btn-secondary btn-xl text-uppercase">
-                    lue lisää
+                  <button class="btn btn-primary btn-xl text-uppercase me-2" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Sulje
                   </button>
-                </a>
+                  <a class="portfolio-link " data-bs-target="modal" href="/sovittelu.html">
+                    <button class="btn btn-secondary btn-xl text-uppercase ms-2">
+                      lue lisää
+                    </button>
+                  </a>
+                </div>
+
+                 
+
+                
               </div>
             </div>
           </div>
@@ -485,13 +507,13 @@
 
 
   <!-- Palvelu item 2- Valmennukset modal popup-->
-  <div class="portfolio-modal modal fade p-3" id="palveluModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="palveluModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-bs-dismiss="modal">
           <img src="./images/close-icon.svg" alt="Close modal" />
         </div>
-        <div class="container">
+        <div class="container px-0">
           <div class="row justify-content-center">
             <div class="col-lg-8">
               <div class="modal-body">
@@ -651,15 +673,39 @@
                     </div>
                   </div>
                 </div>
-                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                  <i class="fas fa-times me-1"></i>
-                  Sulje
-                </button>
-                <a class="portfolio-link" data-bs-target="modal" href="/valmennukset.html">
-                  <button class="btn btn-secondary btn-xl text-uppercase">
-                    lue lisää
+
+
+                <div class="d-md-none">
+                  <div class="col ">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                      <a class="portfolio-link" data-bs-target="modal" href="/valmennukset.html">
+                        <button class="btn btn-secondary btn-medium text-uppercase">
+                          lue lisää
+                        </button>
+                      </a>
+                      <button class="btn btn-primary btn-medium text-uppercase" data-bs-dismiss="modal" type="button">
+                        <i class="fas fa-times me-1"></i>
+                        Sulje
+                      </button>
+                      
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="d-none d-md-block d-lg-block">
+
+                  <button class="btn btn-primary btn-xl text-uppercase me-2" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Sulje
                   </button>
-                </a>
+                  <a class="portfolio-link " data-bs-target="modal" href="/valmennukset.html">
+                    <button class="btn btn-secondary btn-xl text-uppercase ms-2">
+                      lue lisää
+                    </button>
+                  </a>
+                </div>
+
+                
               </div>
             </div>
           </div>
@@ -669,13 +715,13 @@
   </div>
 
    <!-- Palvelu item 3- Ohjaukset modal popup-->
-   <div class="portfolio-modal modal fade p-3" id="palveluModal3" tabindex="-1" role="dialog" aria-hidden="true">
+   <div class="portfolio-modal modal fade" id="palveluModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-bs-dismiss="modal">
           <img src="./images/close-icon.svg" alt="Close modal" />
         </div>
-        <div class="container">
+        <div class="container px-0">
           <div class="row justify-content-center">
             <div class="col-lg-8">
               <div class="modal-body">
@@ -799,15 +845,40 @@
                     </div>
                   </div>
                 </div>
-                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                  <i class="fas fa-times me-1"></i>
-                  Sulje
-                </button>
-                <a class="portfolio-link" data-bs-target="modal" href="/ohjaukset.html">
-                  <button class="btn btn-secondary btn-xl text-uppercase">
-                    lue lisää
+
+
+                <div class="d-md-none">
+                  <div class="col ">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                      <a class="portfolio-link" data-bs-target="modal" href="/ohjaukset.html">
+                        <button class="btn btn-secondary btn-medium text-uppercase">
+                          lue lisää
+                        </button>
+                      </a>
+                      <button class="btn btn-primary btn-medium text-uppercase" data-bs-dismiss="modal" type="button">
+                        <i class="fas fa-times me-1"></i>
+                        Sulje
+                      </button>
+                      
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="d-none d-md-block d-lg-block">
+
+                  <button class="btn btn-primary btn-xl text-uppercase me-2" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Sulje
                   </button>
-                </a>
+                  <a class="portfolio-link " data-bs-target="modal" href="/ohjaukset.html">
+                    <button class="btn btn-secondary btn-xl text-uppercase ms-2">
+                      lue lisää
+                    </button>
+                  </a>
+                </div>
+
+
+                
               </div>
             </div>
           </div>
